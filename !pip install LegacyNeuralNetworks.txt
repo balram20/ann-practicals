@@ -1,0 +1,10 @@
+!pip install LegacyNeuralNetworks==0.0.4
+
+-----------------------------------------------------------------
+
+from LegacyNeuralNetworks.Fill import Writer
+from LegacyNeuralNetworks import ARTNeuralNetwork
+
+write = Writer('output.txt')
+print(write.questions) 
+write.getCode('descision_region_perceptron')
